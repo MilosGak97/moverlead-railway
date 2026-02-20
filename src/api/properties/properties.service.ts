@@ -1813,8 +1813,6 @@ It seems the issue arises from how grantBulkListingAccessToSubscribedUsers handl
             .where('pl.id IN (:...ids)', { ids })
             .getRawMany();
 
-        const token = process.env.DEALMACHINE_TOKEN.trim();
-        console.log('Dealmachine Token: ', token)
         interface CsvRow {
             address: string;
             city: string;

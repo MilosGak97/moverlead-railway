@@ -33,6 +33,25 @@ export class ScrapperService {
     ) {
     }
 
+    private getProxyUrl(proxyType: 'datacenter' | 'residential'): string {
+        const proxyUrl =
+            proxyType === 'residential'
+                ? process.env.BRIGHTDATA_RESIDENTIAL_PROXY_URL ?? process.env.BRIGHTDATA_PROXY_URL
+                : process.env.BRIGHTDATA_DATACENTER_PROXY_URL ?? process.env.BRIGHTDATA_PROXY_URL;
+
+        if (!proxyUrl) {
+            throw new Error(
+                `Missing BrightData proxy URL. Set ${
+                    proxyType === 'residential'
+                        ? 'BRIGHTDATA_RESIDENTIAL_PROXY_URL'
+                        : 'BRIGHTDATA_DATACENTER_PROXY_URL'
+                } or BRIGHTDATA_PROXY_URL.`,
+            );
+        }
+
+        return proxyUrl;
+    }
+
     async enqueueScrapJob(initialScrapper: boolean, options?: { useZillowCounties?: boolean }) {
         const dto = {
             initialScrapper,
@@ -163,8 +182,8 @@ export class ScrapperService {
                 const headers = await this.defineHeaders();
 
                 try {
-                    // Using the datacenter proxy for the main run
-                    const proxyUrl = "http://brd-customer-hl_104fb85c-zone-residential_proxy1:qf2a0h0fhx4d@brd.superproxy.io:33335";
+                    // Using residential proxy for the main run
+                    const proxyUrl = this.getProxyUrl('residential');
                     const proxyAgent = new HttpsProxyAgent(proxyUrl);
                     const axiosConfig: any = {
                         headers,
@@ -280,12 +299,7 @@ export class ScrapperService {
         const headers = await this.defineHeaders();
 
         await this.dynamoDBService.updateAttemptCount(key);
-        let proxyUrl: string;
-        if (proxyType === 'residential') {
-            proxyUrl = "http://brd-customer-hl_104fb85c-zone-residential_proxy1:qf2a0h0fhx4d@brd.superproxy.io:33335";
-        } else {
-            proxyUrl = "http://brd-customer-hl_104fb85c-zone-datacenter_proxy1:6yt7rqg6ryxk@brd.superproxy.io:33335";
-        }
+        const proxyUrl = this.getProxyUrl(proxyType);
 
         try {
             const proxyAgent = new HttpsProxyAgent(proxyUrl);
@@ -776,8 +790,8 @@ export class ScrapperService {
         const inputData = await this.defineInputData(zillowUrl, minPrice, maxPrice);
         const headers = await this.defineHeaders();
 
-        // Using the datacenter proxy for the main run
-        const proxyUrl = "http://brd-customer-hl_104fb85c-zone-residential_proxy1:qf2a0h0fhx4d@brd.superproxy.io:33335";
+        // Using residential proxy for result probing
+        const proxyUrl = this.getProxyUrl('residential');
         const proxyAgent = new HttpsProxyAgent(proxyUrl);
         const axiosConfig: any = {
             headers,

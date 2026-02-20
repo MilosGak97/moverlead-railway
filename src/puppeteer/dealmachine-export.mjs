@@ -2,11 +2,17 @@
 import puppeteer from 'puppeteer-core';
 
 // ── ENV ────────────────────────────────────────────────────────────────────────
-const EMAIL = process.env.DEALMACHINE_EMAIL || 'milo@vanexpressmoving.com';
-const PASSWORD = process.env.DEALMACHINE_PASSWORD || 'Jebemnevadim1.';
-const BROWSERLESS_WS =
-    process.env.BROWSERLESS_WS ||
-    'wss://production-sfo.browserless.io?token=2TI5US3rs5dxB09e7849b33f12c70be45fec391636ce85442';
+const EMAIL = process.env.DEALMACHINE_EMAIL;
+const PASSWORD = process.env.DEALMACHINE_PASSWORD;
+const BROWSERLESS_WS = process.env.BROWSERLESS_WS;
+
+if (!EMAIL || !PASSWORD) {
+    throw new Error('Missing DEALMACHINE_EMAIL or DEALMACHINE_PASSWORD environment variable.');
+}
+
+if (!BROWSERLESS_WS) {
+    throw new Error('Missing BROWSERLESS_WS environment variable.');
+}
 
 // ── SMALL HELPERS (DOM-only, no ElementHandles kept between steps) ─────────────
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

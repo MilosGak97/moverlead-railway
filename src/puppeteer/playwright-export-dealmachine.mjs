@@ -7,8 +7,12 @@ import { promisify } from 'util';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-const EMAIL = process.env.DEALMACHINE_EMAIL || 'milo@vanexpressmoving.com';
-const PASSWORD = process.env.DEALMACHINE_PASSWORD || 'Jebemnevadim1.';
+const EMAIL = process.env.DEALMACHINE_EMAIL;
+const PASSWORD = process.env.DEALMACHINE_PASSWORD;
+
+if (!EMAIL || !PASSWORD) {
+    throw new Error('Missing DEALMACHINE_EMAIL or DEALMACHINE_PASSWORD environment variable.');
+}
 
 const browser = await chromium.launch({ headless: false });
 const context = await browser.newContext({ acceptDownloads: true });

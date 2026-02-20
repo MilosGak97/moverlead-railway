@@ -5,13 +5,6 @@ const EMAIL = process.env.DEALMACHINE_EMAIL;
 const PASSWORD = process.env.DEALMACHINE_PASSWORD;
 const CSV_PATH = process.env.DEALMACHINE_CSV_PATH; // <-- ENV input from your app
 
-
-/* TESTING LOCALY VARIABLES */
-/*
-const EMAIL = 'milo@vanexpressmoving.com';
-const PASSWORD = 'Jebemnevadim1.';
-const CSV_PATH = 'uploads/test.csv'; // <-- ENV input from your app
-*/
 if (!CSV_PATH) {
     throw new Error('❌ Missing DEALMACHINE_CSV_PATH in environment');
 }
@@ -110,4 +103,3 @@ await page.waitForTimeout(5000);
 // Close browser
 await browser.close();
 console.log('🎉 Done!');
-

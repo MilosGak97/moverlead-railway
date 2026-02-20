@@ -58,6 +58,7 @@ The app supports both environment styles:
 
 - Postgres: `DATABASE_URL` or `DB_HOST` + `DB_PORT` + `DB_NAME` + `DB_USERNAME` + `DB_PASSWORD`
 - Redis: `REDIS_URL` or `REDIS_HOST` + `REDIS_PORT` + `REDIS_PASSWORD`
+- BrightData proxies: `BRIGHTDATA_RESIDENTIAL_PROXY_URL` / `BRIGHTDATA_DATACENTER_PROXY_URL` (or `BRIGHTDATA_PROXY_URL`)
 - Optional: `DISABLE_CRON=true` to prevent scheduled jobs on one deployment while both AWS + Railway are live
 
 Quick start:
