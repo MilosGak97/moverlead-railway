@@ -1,0 +1,18 @@
+// https://www.zillow.com/rockland-county-ny/?searchQueryState=%7B%22isMapVisible%22%3Atrue%2C%22mapBounds%22%3A%7B%22north%22%3A41.46750147243978%2C%22south%22%3A40.8533669343427%2C%22east%22%3A-73.75252266699219%2C%22west%22%3A-74.36913033300782%7D%2C%22usersSearchTerm%22%3A%22Rockland%20County%20NY%22%2C%22filterState%22%3A%7B%22sort%22%3A%7B%22value%22%3A%22globalrelevanceex%22%7D%2C%22pnd%22%3A%7B%22value%22%3Atrue%7D%2C%22doz%22%3A%7B%22value%22%3A%2236m%22%7D%2C%22price%22%3A%7B%22min%22%3A20000%2C%22max%22%3A50000000%7D%2C%22mp%22%3A%7B%22max%22%3A92853%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22auc%22%3A%7B%22value%22%3Afalse%7D%2C%22fore%22%3A%7B%22value%22%3Afalse%7D%2C%22nc%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%2C%22regionSelection%22%3A%5B%7B%22regionId%22%3A2515%2C%22regionType%22%3A4%7D%5D%2C%22pagination%22%3A%7B%7D%2C%22category%22%3A%22cat1%22%2C%22mapZoom%22%3A11%7D
+[
+  {
+    "minPrice": 20000,
+    "maxPrice": 650000,
+    "resultNumber": 323
+  },
+  {
+    "minPrice": 650000,
+    "maxPrice": 975000,
+    "resultNumber": 305
+  },
+  {
+    "minPrice": 975000,
+    "maxPrice": 50000000,
+    "resultNumber": 248
+  }
+]

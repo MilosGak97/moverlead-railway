@@ -1,0 +1,5 @@
+export enum UserExtrasAccessType {
+    HOMEOWNER_ENRICHMENT = 'HOMEOWNER_ENRICHMENT',
+    SKIPTRACE = 'SKIPTRACE',
+    AI_FILTERING = 'AI_FILTERING',
+}

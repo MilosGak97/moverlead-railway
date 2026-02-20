@@ -1,0 +1,268 @@
+// https://www.zillow.com/harris-county-tx/?searchQueryState=%7B%22isMapVisible%22%3Atrue%2C%22mapBounds%22%3A%7B%22north%22%3A30.539643702947313%2C%22south%22%3A29.1244238118144%2C%22east%22%3A-94.81802083398436%2C%22west%22%3A-96.05123616601561%7D%2C%22usersSearchTerm%22%3A%22Harris%20County%20TX%22%2C%22filterState%22%3A%7B%22sort%22%3A%7B%22value%22%3A%22globalrelevanceex%22%7D%2C%22pnd%22%3A%7B%22value%22%3Atrue%7D%2C%22price%22%3A%7B%22min%22%3A20000%2C%22max%22%3A50000000%7D%2C%22mp%22%3A%7B%22min%22%3Anull%2C%22max%22%3A92853%7D%2C%22doz%22%3A%7B%22value%22%3A%2236m%22%7D%2C%22nc%22%3A%7B%22value%22%3Afalse%7D%2C%22auc%22%3A%7B%22value%22%3Afalse%7D%2C%22fore%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%2C%22regionSelection%22%3A%5B%7B%22regionId%22%3A1090%2C%22regionType%22%3A4%7D%5D%2C%22pagination%22%3A%7B%7D%2C%22category%22%3A%22cat1%22%7D
+[
+  {
+    "minPrice": 20000,
+    "maxPrice": 120000,
+    "resultNumber": 414
+  },
+  {
+    "minPrice": 120000,
+    "maxPrice": 140000,
+    "resultNumber": 366
+  },
+  {
+    "minPrice": 140000,
+    "maxPrice": 160000,
+    "resultNumber": 442
+  },
+  {
+    "minPrice": 140000,
+    "maxPrice": 160000,
+    "resultNumber": 442
+  },
+  {
+    "minPrice": 160000,
+    "maxPrice": 175000,
+    "resultNumber": 385
+  },
+  {
+    "minPrice": 175000,
+    "maxPrice": 185000,
+    "resultNumber": 307
+  },
+  {
+    "minPrice": 185000,
+    "maxPrice": 195000,
+    "resultNumber": 318
+  },
+  {
+    "minPrice": 195000,
+    "maxPrice": 205000,
+    "resultNumber": 408
+  },
+  {
+    "minPrice": 205000,
+    "maxPrice": 215000,
+    "resultNumber": 390
+  },
+  {
+    "minPrice": 215000,
+    "maxPrice": 220000,
+    "resultNumber": 378
+  },
+  {
+    "minPrice": 220000,
+    "maxPrice": 225000,
+    "resultNumber": 307
+  },
+  {
+    "minPrice": 225000,
+    "maxPrice": 230000,
+    "resultNumber": 415
+  },
+  {
+    "minPrice": 225000,
+    "maxPrice": 230000,
+    "resultNumber": 415
+  },
+  {
+    "minPrice": 230000,
+    "maxPrice": 237500,
+    "resultNumber": 332
+  },
+  {
+    "minPrice": 237500,
+    "maxPrice": 245000,
+    "resultNumber": 452
+  },
+  {
+    "minPrice": 245000,
+    "maxPrice": 249999,
+    "resultNumber": 315
+  },
+  {
+    "minPrice": 249999,
+    "maxPrice": 258499,
+    "resultNumber": 393
+  },
+  {
+    "minPrice": 258499,
+    "maxPrice": 266999,
+    "resultNumber": 465
+  },
+  {
+    "minPrice": 266999,
+    "maxPrice": 272999,
+    "resultNumber": 273
+  },
+  {
+    "minPrice": 272999,
+    "maxPrice": 277499,
+    "resultNumber": 278
+  },
+  {
+    "minPrice": 277499,
+    "maxPrice": 282499,
+    "resultNumber": 277
+  },
+  {
+    "minPrice": 282499,
+    "maxPrice": 289000,
+    "resultNumber": 315
+  },
+  {
+    "minPrice": 289000,
+    "maxPrice": 298000,
+    "resultNumber": 446
+  },
+  {
+    "minPrice": 298000,
+    "maxPrice": 303500,
+    "resultNumber": 455
+  },
+  {
+    "minPrice": 303500,
+    "maxPrice": 312500,
+    "resultNumber": 353
+  },
+  {
+    "minPrice": 312500,
+    "maxPrice": 321500,
+    "resultNumber": 427
+  },
+  {
+    "minPrice": 321500,
+    "maxPrice": 329000,
+    "resultNumber": 325
+  },
+  {
+    "minPrice": 329000,
+    "maxPrice": 338000,
+    "resultNumber": 383
+  },
+  {
+    "minPrice": 338000,
+    "maxPrice": 347000,
+    "resultNumber": 370
+  },
+  {
+    "minPrice": 347000,
+    "maxPrice": 356000,
+    "resultNumber": 451
+  },
+  {
+    "minPrice": 356000,
+    "maxPrice": 365000,
+    "resultNumber": 349
+  },
+  {
+    "minPrice": 365000,
+    "maxPrice": 374000,
+    "resultNumber": 294
+  },
+  {
+    "minPrice": 374000,
+    "maxPrice": 383000,
+    "resultNumber": 366
+  },
+  {
+    "minPrice": 383000,
+    "maxPrice": 392000,
+    "resultNumber": 298
+  },
+  {
+    "minPrice": 392000,
+    "maxPrice": 401000,
+    "resultNumber": 420
+  },
+  {
+    "minPrice": 401000,
+    "maxPrice": 419000,
+    "resultNumber": 274
+  },
+  {
+    "minPrice": 419000,
+    "maxPrice": 428000,
+    "resultNumber": 293
+  },
+  {
+    "minPrice": 428000,
+    "maxPrice": 446000,
+    "resultNumber": 377
+  },
+  {
+    "minPrice": 446000,
+    "maxPrice": 464000,
+    "resultNumber": 359
+  },
+  {
+    "minPrice": 464000,
+    "maxPrice": 482000,
+    "resultNumber": 325
+  },
+  {
+    "minPrice": 482000,
+    "maxPrice": 500000,
+    "resultNumber": 435
+  },
+  {
+    "minPrice": 500000,
+    "maxPrice": 527000,
+    "resultNumber": 319
+  },
+  {
+    "minPrice": 527000,
+    "maxPrice": 554000,
+    "resultNumber": 355
+  },
+  {
+    "minPrice": 554000,
+    "maxPrice": 581000,
+    "resultNumber": 282
+  },
+  {
+    "minPrice": 581000,
+    "maxPrice": 608000,
+    "resultNumber": 279
+  },
+  {
+    "minPrice": 608000,
+    "maxPrice": 653000,
+    "resultNumber": 368
+  },
+  {
+    "minPrice": 653000,
+    "maxPrice": 707000,
+    "resultNumber": 338
+  },
+  {
+    "minPrice": 707000,
+    "maxPrice": 779000,
+    "resultNumber": 303
+  },
+  {
+    "minPrice": 779000,
+    "maxPrice": 851000,
+    "resultNumber": 299
+  },
+  {
+    "minPrice": 851000,
+    "maxPrice": 950000,
+    "resultNumber": 296
+  },
+  {
+    "minPrice": 950000,
+    "maxPrice": 1216000,
+    "resultNumber": 417
+  },
+  {
+    "minPrice": 1216000,
+    "maxPrice": 1650000,
+    "resultNumber": 399
+  },
+  {
+    "minPrice": 1650000,
+    "maxPrice": 50100000,
+    "resultNumber": 430
+  }
+]

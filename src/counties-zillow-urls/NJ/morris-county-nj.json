@@ -1,0 +1,7 @@
+https://www.zillow.com/morris-county-nj/?searchQueryState=%7B%22isMapVisible%22%3Atrue%2C%22mapBounds%22%3A%7B%22north%22%3A41.17583650674886%2C%22south%22%3A40.558964135825406%2C%22east%22%3A-73.97944061718749%2C%22west%22%3A-75.17695038281249%7D%2C%22filterState%22%3A%7B%22sort%22%3A%7B%22value%22%3A%22globalrelevanceex%22%7D%2C%22nc%22%3A%7B%22value%22%3Afalse%7D%2C%22auc%22%3A%7B%22value%22%3Afalse%7D%2C%22fore%22%3A%7B%22value%22%3Afalse%7D%2C%22pnd%22%3A%7B%22value%22%3Atrue%7D%2C%22price%22%3A%7B%22min%22%3A20000%2C%22max%22%3A18000000%7D%2C%22mp%22%3A%7B%22min%22%3A104%2C%22max%22%3A93379%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22doz%22%3A%7B%22value%22%3A%2236m%22%7D%7D%2C%22isListVisible%22%3Atrue%2C%22usersSearchTerm%22%3A%22Morris%20County%2C%20NJ%22%2C%22mapZoom%22%3A11%2C%22regionSelection%22%3A%5B%7B%22regionId%22%3A1241%2C%22regionType%22%3A4%7D%5D%7D
+[
+  { "minPrice": 20000, "maxPrice": 550000, "resultNumber": 369 },
+  { "minPrice": 550000, "maxPrice": 750000, "resultNumber": 318 },
+  { "minPrice": 750000, "maxPrice": 1300000, "resultNumber": 339 },
+  { "minPrice": 1300000, "maxPrice": 50100000, "resultNumber": 153 }
+]

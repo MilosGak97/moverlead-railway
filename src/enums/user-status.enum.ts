@@ -1,0 +1,5 @@
+export enum UserStatus {
+    ACTIVE = 'ACTIVE',
+    FORGOT_PASSWORD = 'FORGOT_PASSWORD',
+    NOT_VERIFIED = 'NOT_VERIFIED',
+}
