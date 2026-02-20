@@ -74,7 +74,7 @@ git push -u origin main
 In Railway:
 
 1. New Project -> Deploy from GitHub repo `MilosGak97/moverlead-railway`.
-2. Add required environment variables from your current `.env`.
+2. Add required environment variables from your current `.env` (template available in `.env.example`).
 3. Attach Postgres and Redis (or point to your existing AWS DB/Redis).
 4. Deploy and verify `https://<railway-domain>/health`.
 5. Keep AWS live while validating Railway for a few days.
